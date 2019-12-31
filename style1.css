@@ -1,7 +1,5 @@
 
 	/*		header cover		*/
-	
-	
 	#headcover {
 	
 	background-image: url("img/foto.header.jpg");
@@ -20,8 +18,8 @@
 	.body {
 	position: absolute;
 	width: 50%;
-	/*	Mengatur Teks di tengah gambar */
 	
+	/*	Mengatur Teks di tengah gambar */
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -39,11 +37,11 @@
 	
 	/*	Teks Menyala Seperti lampu neon */
 	text-shadow:
-   0 0 3px #FFFFA0,
-   0 0 5px #FFFF4D,
-   0 0 9px #FFFF41,
-   0 0 20px #FFFF2A,
-   0 0 25px #FFFF2B;
+	   0 0 3px #FFFFA0,
+	   0 0 5px #FFFF4D,
+	   0 0 9px #FFFF41,
+	   0 0 20px #FFFF2A,
+	   0 0 25px #FFFF2B;
 	}
 
 	
@@ -57,6 +55,7 @@
 	}
 
 	#content1 .box {
+		
 		padding: 2rem;
 		padding-left: 25%;
 		padding-right: 25%;
@@ -66,12 +65,14 @@
 	}
 	
 	#content1 .box i {
-		padding: 2%;
+		padding: 5%;
 		font-size: 5vw; /*		Font size responsive pakai vw*/
 		border: solid 1px #000;
 		border-radius: 50%;
+		
 	}
 	
+	/*		Content Paragraf*/
 	#content1 .box p {
 		color: #9dab86;
 	}
@@ -84,10 +85,92 @@
 		padding-right: 5%;
 		color: #000;
 		text-decoration: none;
-		font-family: 'PT Sans Narrow', sans-serif;
+		
 		}
 		
+	#content1 .box .card-text {
+		font-family: 'Montserrat', sans-serif;
+	}
+		
 	
+/*		Content 2		*/
+
+	#content2  {
+		text-align: center;
+		background-color: #f0e3ff;
+		position: relative;
+		padding: 3%;
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	
+	#content2 .card img {
+		height: 250px;
+		width: auto;
+	}
+	
+	#content2 .card-deck .card .card-body {
+		padding: 8%;
+		font-family: 'Montserrat', sans-serif;
+		color: #9dab86;
+	}
+	
+	#content2 .card-deck .card .card-body a{
+		border: solid 1px #000;
+		letter-spacing: 3px;
+		padding: 5px;
+		padding-left: 5%;
+		padding-right: 5%;
+		color: #000;
+		text-decoration: none;
+	}
+	
+	.body-gambar {
+	position: absolute;
+	width: 100%;
+	
+	/*	Mengatur Teks di tengah gambar */
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
 
+	.body-gambar .text-gambar {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 3vw;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+/*	Content 2-1	*/
 
+	#content2-1  {
+		text-align: center;
+		background-color: #f0e3ff;
+		position: relative;
+		padding: 0 3% 3% 3%;
+		border: none;
+		margin-left: auto;
+		margin-right: auto
+	}
+	
+	#content2-1 .card img {
+		height: 250px;
+		width: auto;
+	}
+	
+	#content2-1 .card-deck .card .card-body {
+		font-family: 'Montserrat', sans-serif;
+		color: #9dab86;
+	}
+	
+	#content2-1 .card-deck .card .card-body a{
+		border: solid 1px #000;
+		letter-spacing: 3px;
+		padding: 5px;
+		padding-left: 5%;
+		padding-right: 5%;
+		color: #000;
+		text-decoration: none;
+	
