@@ -1,5 +1,11 @@
 
 	/*		header cover		*/
+	
+	* {
+		padding: 0;
+		margin: 0;
+	
+	}
 	#headcover {
 	
 	background-image: url("img/foto.header.jpg");
@@ -86,7 +92,7 @@
 		color: #000;
 		text-decoration: none;
 		
-		}
+	}
 		
 	#content1 .box .card-text {
 		font-family: 'Montserrat', sans-serif;
@@ -127,20 +133,20 @@
 	}
 	
 	.body-gambar {
-	position: absolute;
-	width: 100%;
+		position: absolute;
+		width: 100%;
 	
 	/*	Mengatur Teks di tengah gambar */
-	top: 30%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.body-gambar .text-gambar {
-	font-family: 'Montserrat Subrayada', sans-serif;
-	font-size: 3vw;
-	color: #fff;
-	font-weight: bold;
+		font-family: 'Montserrat Subrayada', sans-serif;
+		font-size: 3vw;
+		color: #fff;
+		font-weight: bold;
 	}
 	
 /*	Content 2-1	*/
@@ -161,6 +167,7 @@
 	}
 	
 	#content2-1 .card-deck .card .card-body {
+		padding: 8%;
 		font-family: 'Montserrat', sans-serif;
 		color: #9dab86;
 	}
@@ -173,4 +180,57 @@
 		padding-right: 5%;
 		color: #000;
 		text-decoration: none;
+	}
 	
+/*	Footer	*/
+
+	#footer {
+		border: none;
+		position: relative;
+		padding: 5% 15%;
+		background-color: #f0e3ff;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	
+	#footer h2 {
+		font-weight: bold;
+		letter-spacing: 1rem;
+	}
+	
+	#footer .card-body .card-text {
+		color: #9dab86;
+		font-size: 1vw;
+		padding: 0 15%;
+	}
+	
+	#footer .card-body a {
+		text-decoration: none;
+		color: #000;
+		letter-spacing: 5px;
+		padding: 1% 5%;
+		border: 2px solid #000;
+	}
+	
+	.sosmed .grup {
+		position: relative;
+		list-style: none;
+	}
+	
+	.sosmed .grup li {
+		display: inline;
+		letter-spacing: 1vw;
+	}
+	
+	.sosmed .grup i {
+		color: #9dab86 ;
+		font-size: 1vw;
+	}
+	
+	#footer .card-footer {
+		background: none;
+		font-size: 0.8vw;
+		color: #9dab86;
+	}
