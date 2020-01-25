@@ -15,16 +15,26 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	
 <!-----------	Ketika di taro eksternal dan posisi sejajar dengan index.html css masih berjalan, sedangkan jika di taro dalam folder css gak ke baca, why ???		------------->	
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="css/style1.css">
 
 <!--------		script icon online		-------------->
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-------------		Icon Title		---------------->
-	<link rel="icon" type="image/png" href="#">
-    <title>Template Bootstrap 4</title>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-------------		Icon Title		---------------->
+	<link rel="icon" type="image/png" href="img/icon_title.png">
+    <title> </title>
+	
+	<!-------------		Title Berjalan 	------------->
+<script language='JavaScript'>
+	var txt="  Template Bootstrap 4 @Edutech";
+	var speed=300;
+	var refresh=null;
+	function action() { document.title=txt;
+	txt=txt.substring(1,txt.length)+txt.charAt(0);
+	refresh=setTimeout("action()",speed);}action();
+</script>
 	
 </head>
 <body>
@@ -163,8 +173,9 @@
  
  
  <!--------------------		Bootstrap dan jQuery Offline		--------------------->
-    <script src="js/jquery-3.4.1.min.js"></script>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	
 </body>
 </html>
